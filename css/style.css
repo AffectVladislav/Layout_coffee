@@ -321,6 +321,7 @@ img {
 
 
 .products {
+    margin-bottom: 60px;
 
 }
 
@@ -387,5 +388,53 @@ img {
 
 
 /*****************.Products******************/
+/*****************News******************/
+
+.news {
+
+}
+
+.news__titel {
+
+}
+
+.news__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.new__block {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+
+    background-color: #14141D;
+
+    transition: background-color .2s ease;
+}
+
+.new__block:hover {
+    background-color: #22222F;
+}
+
+.block__content {
+
+}
+
+.news__img {
+    height: 240;
+    width: 390;
+}
+
+.text__news {
+    max-width: 350px;
 
 
+}
+
+.text__content{
+    font-size: 16px;
+}
+
+/*****************.News******************/
