@@ -142,11 +142,21 @@ img {
     display: flex;
 }
 
+.nav-footer {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-footer .nav__link {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
 .nav__link {
     margin-right: 35px;
     font-size: 15px;
     font-weight: 600;
-    transform: uppercase;
+    text-transform: uppercase;
 
     transition: color .2s ease;
 }
@@ -391,7 +401,7 @@ img {
 /*****************News******************/
 
 .news {
-
+    margin-bottom: 60px;
 }
 
 .news__title {
@@ -444,5 +454,30 @@ img {
 }
 
 
-
 /*****************.News******************/
+/*****************Fotter******************/
+
+
+.footer {
+    border-top: 2px solid #14141D;
+    padding-top: 80px;
+    padding-bottom: 60px;
+
+}
+
+.footer__wrapper {
+    display: flex;
+}
+
+.footer__block {
+    width: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.footer__logo {
+
+}
+
+
+/*****************.Fotter******************/
