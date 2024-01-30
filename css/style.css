@@ -506,6 +506,7 @@ img {
 .product__wrapper {
     display: flex;
     margin: 0 -10px;
+    margin-bottom: 80px;
 }
 
 .product__image {
@@ -525,6 +526,12 @@ img {
     padding: 30px;
     background-color: #14141D;
     border-radius: 10px;
+}
+
+.product__item ul {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.4;
 }
 
 .product__picture {
@@ -597,6 +604,17 @@ img {
 .radio__label:hover {
     color: #C7A17A;
 }
+
+.product__fotter {
+    margin-bottom: 80px;
+
+}
+
+.product__fotter .block__title {
+    font-size: 24px;
+    margin: 30px;
+}
+
 
 
 
