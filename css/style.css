@@ -17,6 +17,8 @@ body {
 
 h1 {
     text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
 }
 
 h2 {
@@ -65,6 +67,11 @@ img {
     font-weight: 500;
     letter-spacing: 0.1em;
 
+    border: 0;
+    cursor: pointer;
+
+    color: #fff;
+
 }
 
 .btn-main {
@@ -83,6 +90,10 @@ img {
 
 .btn-secodary:hover {
     background-color: #666681
+}
+
+.btn-full {
+    width: 100%;
 }
 
 /*****************.Body******************/
@@ -243,10 +254,7 @@ img {
 
 .intro__title {
     margin: 0 0 35px;
-    font-size: 60px;
-    font-weight: 900;
     line-height: 1.4;
-    text-transform: uppercase;
 }
 
 .intro__text {
@@ -476,8 +484,120 @@ img {
 }
 
 .footer__logo {
-
+    
 }
 
 
 /*****************.Fotter******************/
+/*****************product******************/
+
+.product {
+    padding-top: 100px;
+}
+
+
+
+.block__title h1 {
+    margin-block-start: 0px;
+    margin-bottom: 50px;
+}
+
+
+.product__wrapper {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.product__image {
+    background-color: #14141D;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.product__image .product__item {
+    align-items: center;
+    padding: 60px;
+}
+
+.product__item {
+    padding: 30px;
+    background-color: #14141D;
+    border-radius: 10px;
+}
+
+.product__picture {
+    margin: 0 auto;
+    height: 300px;
+    max-width: 100%;
+
+}
+
+.product__info {
+    width: 400px;
+    padding: 0 10px;
+}
+
+.product__price {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.product__price del {
+    margin-left: 30px;
+    color: #818181;
+    font-weight: 400;
+}
+
+.product__form {
+
+}
+
+.radio__wrapper {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.radio {
+    margin-right: 10px;
+    position: relative;
+}
+
+.radio__input {
+    opacity: 0;
+    position: absolute;
+}
+
+.radio__input:checked + .radio__label{
+    color: #C7A17A;
+    border-color: #C7A17A;
+}
+
+.radio__label {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: color .2s ease;
+}
+
+.radio__label:hover {
+    color: #C7A17A;
+}
+
+
+
+/*****************.product******************/
